@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HealthCareMate", "HealthCareMate", "{CDAD82AD-4FC8-42B3-904A-F8FB273D16BC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{2406378D-3800-435B-A1F7-802533AB71EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthCareMate.Application", "HealthCareMate\Core\HealthCareMate.Application\HealthCareMate.Application.csproj", "{E73ED5BF-94D5-4D14-B9ED-4B367CD0F9AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthCareMate.Domain", "HealthCareMate\Core\HealthCareMate.Domain\HealthCareMate.Domain.csproj", "{0469A8DB-273B-4304-9DAC-471A409386F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{B6C6F88D-152D-4D9A-B607-D7D71639DB0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthCareMate.Infrastructure", "HealthCareMate\Infrastructure\HealthCareMate.Infrastructure\HealthCareMate.Infrastructure.csproj", "{C1AEF8E5-D8A5-4D3D-BB74-C0E15FC268F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthCareMate.Persistence", "HealthCareMate\Infrastructure\HealthCareMate.Persistence\HealthCareMate.Persistence.csproj", "{DAC50057-C94E-40D9-9F5F-F332407DF222}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{F41B8DE3-6071-410A-8BEC-BCCA5E6BCC99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthCareMate.API", "HealthCareMate\Presentation\HealthCareMate.API\HealthCareMate.API.csproj", "{14CA337E-ED4A-4D9E-A718-88BBED7C3739}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E73ED5BF-94D5-4D14-B9ED-4B367CD0F9AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E73ED5BF-94D5-4D14-B9ED-4B367CD0F9AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E73ED5BF-94D5-4D14-B9ED-4B367CD0F9AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E73ED5BF-94D5-4D14-B9ED-4B367CD0F9AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0469A8DB-273B-4304-9DAC-471A409386F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0469A8DB-273B-4304-9DAC-471A409386F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0469A8DB-273B-4304-9DAC-471A409386F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0469A8DB-273B-4304-9DAC-471A409386F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1AEF8E5-D8A5-4D3D-BB74-C0E15FC268F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1AEF8E5-D8A5-4D3D-BB74-C0E15FC268F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1AEF8E5-D8A5-4D3D-BB74-C0E15FC268F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1AEF8E5-D8A5-4D3D-BB74-C0E15FC268F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAC50057-C94E-40D9-9F5F-F332407DF222}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAC50057-C94E-40D9-9F5F-F332407DF222}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAC50057-C94E-40D9-9F5F-F332407DF222}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAC50057-C94E-40D9-9F5F-F332407DF222}.Release|Any CPU.Build.0 = Release|Any CPU
+		
+		{14CA337E-ED4A-4D9E-A718-88BBED7C3739}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14CA337E-ED4A-4D9E-A718-88BBED7C3739}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14CA337E-ED4A-4D9E-A718-88BBED7C3739}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14CA337E-ED4A-4D9E-A718-88BBED7C3739}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2406378D-3800-435B-A1F7-802533AB71EA} = {CDAD82AD-4FC8-42B3-904A-F8FB273D16BC}
+		{E73ED5BF-94D5-4D14-B9ED-4B367CD0F9AF} = {2406378D-3800-435B-A1F7-802533AB71EA}
+		{0469A8DB-273B-4304-9DAC-471A409386F6} = {2406378D-3800-435B-A1F7-802533AB71EA}
+		{B6C6F88D-152D-4D9A-B607-D7D71639DB0E} = {CDAD82AD-4FC8-42B3-904A-F8FB273D16BC}
+		{C1AEF8E5-D8A5-4D3D-BB74-C0E15FC268F9} = {B6C6F88D-152D-4D9A-B607-D7D71639DB0E}
+		{DAC50057-C94E-40D9-9F5F-F332407DF222} = {B6C6F88D-152D-4D9A-B607-D7D71639DB0E}
+		{F41B8DE3-6071-410A-8BEC-BCCA5E6BCC99} = {CDAD82AD-4FC8-42B3-904A-F8FB273D16BC}
+		
+		{14CA337E-ED4A-4D9E-A718-88BBED7C3739} = {F41B8DE3-6071-410A-8BEC-BCCA5E6BCC99}
+	EndGlobalSection
+EndGlobal
